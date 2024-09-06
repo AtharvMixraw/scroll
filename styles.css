@@ -29,7 +29,7 @@ body, html {
 }
 
 .spacer {
-    height: 300px; /* Space to allow scrolling */
+    height: 200px; /* Less space to scroll */
 }
 
 .hidden {
