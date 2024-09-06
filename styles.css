@@ -1,0 +1,44 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100%;
+}
+
+.scroll-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.scroll-box {
+    width: 100%;
+    max-width: 400px;
+    height: 50vh;
+    overflow-y: auto;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #fff;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.spacer {
+    height: 300px; /* Space to allow scrolling */
+}
+
+.hidden {
+    display: none;
+}
+
+.visible {
+    display: block;
+    color: green;
+    font-size: 18px;
+    font-weight: bold;
+}
